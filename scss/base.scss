@@ -1,0 +1,22 @@
+@import './utils/colors';
+
+html {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 62.5%;    
+    body {        
+        font-size: 1.6rem;
+
+        h1,h2 {
+            color: #252525; 
+        }
+
+        p {
+            color: $text;
+        }
+
+        p.purple-highlight {
+            color: $purple;
+            font-weight: bold; 
+        }
+    }
+}

@@ -1,7 +1,7 @@
 {
-  "name": "SimalamPracticum",
+  "name": "TravelerTemplate",
   "version": "1.1.1",
-  "description": "a practicum to complete for Simalam",
+  "description": "The first in a series of practice templates",
   "dependencies": {
     "gulp": "^3.5.6",
     "gulp-sass": "^2.0.4",
