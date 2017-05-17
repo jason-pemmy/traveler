@@ -52,7 +52,13 @@ header {
         border-bottom-color: #701dbb;
         -webkit-box-shadow: 0px 6px 6px 0px rgba(0, 0, 0, 0.2);
         -moz-box-shadow: 0px 6px 6px 0px rgba(0, 0, 0, 0.2);
-        box-shadow: 0px 6px 6px 0px rgba(0, 0, 0, 0.2); }
+        box-shadow: 0px 6px 6px 0px rgba(0, 0, 0, 0.2);
+        cursor: pointer;
+        transition: all 0.3s cubic-bezier(0, 0.93, 0.64, 1.38); }
+        header .main-nav-container .navigation li:hover {
+          transform: scale(1.1, 1.1);
+          border-bottom-width: 1rem;
+          color: #701dbb; }
         header .main-nav-container .navigation li span {
           margin: 1.6rem 0 1.3rem 0;
           display: block;

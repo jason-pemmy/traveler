@@ -1,3 +1,10 @@
 @import './utils/colors';
 
-.hero-container{}
+.hero-container {
+    background: url("../img/hero.jpg")no-repeat;
+    width: 100%;
+    height: 55.2rem;
+    background-position: center;
+    background-size: cover;
+
+}

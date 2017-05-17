@@ -14,7 +14,7 @@ header {
         border-right-color: $light-grey;
         border-right-width: 1px;
 
-        span { 
+        span {  
             margin-left: .7rem;
             margin-right: 1.8rem;
         }
@@ -52,6 +52,7 @@ header {
         top: 1.5rem;
         margin-top: 3.8rem;
         text-align: center;
+        
         .navigation {
             list-style: none;
             padding: 0;
@@ -69,6 +70,14 @@ header {
                 -webkit-box-shadow: 0px 6px 6px 0px rgba(0,0,0,0.2);
                 -moz-box-shadow: 0px 6px 6px 0px rgba(0,0,0,0.2);
                 box-shadow: 0px 6px 6px 0px rgba(0,0,0,0.2);
+                cursor: pointer;
+                transition: all .3s cubic-bezier(0,.93,.64,1.38);
+
+                &:hover {
+                    transform: scale(1.1, 1.1);
+                    border-bottom-width: 1rem;
+                    color: $purple;
+                }
 
                 span {
                     margin: 1.6rem 0 1.3rem 0;
