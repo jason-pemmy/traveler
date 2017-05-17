@@ -2,20 +2,27 @@
 
 .what-it-does-container {
     width: 100%;
-    padding-top: 5.5rem;
-    background-color: #222;
     color: #fff;
     text-align: center;
 
     .what-it-does-content-container {        
         width: 100%;
-        height: 578px;
+        height: 400px;
         text-align: center;
-        background: url("../img/screen.png");
+        background: url("../img/screen.jpg");
         background-repeat: no-repeat;
         background-position: center;
+        background-size: cover;    
 
         h2 {
+            position: relative;
+            top: 25rem;
+            color: #fff;
+        }
+
+        span {
+            position: relative;
+            top: 25rem;
             color: #fff;
         }
     }
