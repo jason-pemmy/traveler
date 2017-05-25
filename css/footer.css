@@ -1,0 +1,52 @@
+footer {
+  background-color: #373737;
+  border-top: 0.5rem solid #701dbb;
+  padding-bottom: 24.5rem;
+  color: #fff; }
+  footer img {
+    padding-top: 3rem; }
+  footer .white {
+    color: #fff; }
+  footer .footer-main-nav {
+    width: 100%; }
+  footer ul {
+    width: 100%;
+    list-style: none;
+    padding-top: 5rem; }
+    footer ul li {
+      display: inline-block;
+      padding: 0 2.5rem 0 2.5rem; }
+  footer .footer-main-nav ul li {
+    border-right: .1rem solid #767676;
+    cursor: pointer; }
+    footer .footer-main-nav ul li:first-child {
+      padding-left: 0; }
+    footer .footer-main-nav ul li:last-child {
+      padding-right: 0;
+      border: none; }
+    footer .footer-main-nav ul li:hover:after {
+      content: "";
+      display: block;
+      margin-top: 1.5rem;
+      width: 100%;
+      height: .5rem;
+      background-color: #701dbb; }
+  footer .footer-social-nav ul li span {
+    display: inline-block;
+    padding-right: .6rem; }
+  footer .footer-social-nav ul li:first-child {
+    padding-left: 0; }
+  footer .footer-social-nav ul li:last-child {
+    padding-right: 0; }
+  footer .trent-info {
+    margin-top: 4rem;
+    margin-bottom: 4rem; }
+  footer .secondary-footer-links {
+    padding-top: 1rem;
+    padding-left: 0; }
+    footer .secondary-footer-links li:first-child {
+      padding-left: 0; }
+    footer .secondary-footer-links li:last-child {
+      padding-right: 0; }
+  footer .bottom-p {
+    margin-top: 2rem; }

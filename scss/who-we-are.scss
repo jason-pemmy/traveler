@@ -36,6 +36,24 @@
         img {
             width: 100%;
         }
+
+        .slide-counter-container {
+            margin: 4rem 0 4.5rem 0;
+            text-align: center;
+
+            .counter-circle {
+                display: inline-block;
+                width: 1rem;
+                height: 1rem;
+                margin: 0 .5rem 0 .5rem;
+                background-color: #979797;
+                border-radius: 50%;  
+            }
+
+            .counter-circle.active {
+                background-color: $purple;
+            }
+        }
     }
 }
 

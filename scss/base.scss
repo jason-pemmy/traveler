@@ -3,8 +3,10 @@
 html {
     font-family: 'PT Sans', sans-serif;
     font-size: 62.5%;    
+    overflow-x: hidden;
+
     body {        
-        font-size: 1.6rem;
+        font-size: 1.6rem; 
 
         h1,h2 {
             color: #252525; 
